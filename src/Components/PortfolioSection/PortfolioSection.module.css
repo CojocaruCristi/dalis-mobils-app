@@ -1,0 +1,13 @@
+.portfolioSectionHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    background-color: #343434;
+}
+
+.portfolioSectionHeaderH1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E4E4E4;
+}

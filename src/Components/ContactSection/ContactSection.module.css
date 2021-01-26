@@ -1,0 +1,13 @@
+.contactSectionHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #343434;
+}
+
+
+.contactSectionHeaderH1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E4E4E4;
+}

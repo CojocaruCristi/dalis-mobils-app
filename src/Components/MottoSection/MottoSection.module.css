@@ -1,0 +1,29 @@
+.inlineStyle {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mottoSectionH1 {
+    font-weight: bold;
+    color:transparent;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.mottoSectionH2 {
+    font-weight: bold;
+    color:#343434;
+}
+
+.mottoSectionHr {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
