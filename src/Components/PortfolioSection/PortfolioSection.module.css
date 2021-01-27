@@ -11,3 +11,11 @@
     text-transform: uppercase;
     color: #E4E4E4;
 }
+
+.seeMore {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: transparent;
+    text-align: center;
+}

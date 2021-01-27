@@ -1,34 +1,24 @@
 import React from "react";
-import {Button, Form} from "react-bootstrap";
+import {Button, Form, Image} from "react-bootstrap";
 import styledClasses from "./ContactSection.module.css"
+import {Parallax} from "react-parallax";
+
 
 
 export const ContactSection = () => {
     return(
-        <>
+        <div id={"contact"}>
             <div className={styledClasses.contactSectionHeader}>
-                <h1 className={styledClasses.contactSectionHeaderH1}>Contact</h1>
+                <h1 className={styledClasses.contactSectionHeaderH1}>Contact us</h1>
             </div>
-            <Form>
-                <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                    <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
-                    </Form.Text>
-                </Form.Group>
+            <Parallax blur={3}
+                      bgImage={"https://images.unsplash.com/photo-1589190141825-2862c12ad2c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"}
+                      strength={300}
+            >
+                <div style={{height: "110vh"}}>
 
-                <Form.Group controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
-                <Form.Group controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
-            </Form>
-        </>
+                </div>
+            </Parallax>
+        </div>
     )
 }

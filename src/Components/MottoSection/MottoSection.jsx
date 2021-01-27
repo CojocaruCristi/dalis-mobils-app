@@ -7,7 +7,7 @@ import MottoSectionBG from "./../../Img/mottoSectionBG.jpg"
 
 export const MottoSection = () => {
     return (
-        <div>
+        <div id={"top"}>
             <Parallax blur={3}
                       bgImage={MottoSectionBG}
                       strength={300}
@@ -17,7 +17,7 @@ export const MottoSection = () => {
                         <Image src={logo} width={"110"} height={"110"} roundedCircle/>
                         <h1 className={styledClasses.mottoSectionH1}>Your imagination, our work.</h1>
                         <hr className={styledClasses.mottoSectionHr}/>
-                        <h2 className={styledClasses.mottoSectionH2}>Mobilă la comandă, vă realizăm orice idei mobiliere în realitate. </h2>
+                        <h2 className={styledClasses.mottoSectionH2}>Mobilă la comandă <br/> realizăm design mobiliar individual </h2>
                     </div>
                 </div>
             </Parallax>

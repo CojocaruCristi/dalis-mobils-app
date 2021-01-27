@@ -8,8 +8,6 @@ import {ContactSection} from "./Components/ContactSection/ContactSection";
 
 function App() {
 
-    const [modalShow, setModalShow] = useState(false);
-
 
     return (
         <>
