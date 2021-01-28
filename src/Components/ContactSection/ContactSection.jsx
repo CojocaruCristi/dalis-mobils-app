@@ -1,12 +1,12 @@
 import React from "react";
-import {Button, Form, Image} from "react-bootstrap";
+
 import styledClasses from "./ContactSection.module.css"
 import {Parallax} from "react-parallax";
 import contactSectionBG from "./../../Img/contactSectionBG.jpeg"
 
 
-
 export const ContactSection = () => {
+
     return (
         <div id={"contact"}>
             <div className={styledClasses.contactSectionHeader}>
