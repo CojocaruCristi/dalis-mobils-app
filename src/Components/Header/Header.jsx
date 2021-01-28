@@ -2,12 +2,13 @@ import React from "react";
 import {Badge, Image, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-scroll"
 import logo from "./../../Img/logo.jpg"
+import styledClasses from "./header.module.css"
 
 
 export const Header = () => {
     return (
-        <Navbar collapseOnSelect expand={"lg"} bg={"dark"} variant={"dark"} fixed={"top"}>
-            <Navbar.Brand><Link to={"top"} smooth={true} duration={1000}><Image src={logo} width={"40"} height={"40"} roundedCircle/> Dalis Bobils </Link><Badge
+        <Navbar  collapseOnSelect expand={"lg"} bg={"dark"} variant={"dark"} fixed={"top"} className={styledClasses.header}>
+            <Navbar.Brand style={{"cursor": "pointer"}} ><Link to={"top"} smooth={true} duration={1000}><Image src={logo} width={"40"} height={"40"} roundedCircle/> Dalis Bobils </Link><Badge
                 variant="secondary">SLR</Badge></Navbar.Brand>
             <Navbar.Toggle aria-controls={"responsive-navBar-nav"}/>
             <Navbar.Collapse id={"responsive-navBar-nav"}>

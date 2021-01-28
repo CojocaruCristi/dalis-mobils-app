@@ -8,15 +8,11 @@ export const PortfolioSection = (props) => {
 
     return (
         <div id={"gallery"} style={{position: "relative"}}>
-
             <div className={styledClasses.portfolioSectionHeader}>
                 <h1 className={styledClasses.portfolioSectionHeaderH1}>Portfolio</h1>
             </div>
-            <div className={styledClasses.seeMore}>
-                <a href="https://www.facebook.com/dalisfurniture/photos" target="_blank">See more</a>
-            </div>
+            <p className={styledClasses.parTarget} ><a href="https://www.facebook.com/dalisfurniture/photos" target="_blank" className={styledClasses.linkTarget} >See more</a></p>
             <Gallery photos={photosArr} direction={"row"} />
-
         </div>
     )
 }
