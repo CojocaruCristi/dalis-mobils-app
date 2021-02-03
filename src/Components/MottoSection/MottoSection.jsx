@@ -17,7 +17,7 @@ export const MottoSection = () => {
                         <Image src={logo} width={"110"} height={"110"} roundedCircle/>
                         <h1 className={styledClasses.mottoSectionH1}>Your imagination, our work.</h1>
                         <hr className={styledClasses.mottoSectionHr}/>
-                        <h2 className={styledClasses.mottoSectionH2}>Mobilă la comandă <br/> realizăm design mobiliar individual </h2>
+                        <h2 className={styledClasses.mottoSectionH2}>Mobilă la comandă <br/> realizăm design mobiliar individual <br/> livrarea și montarea în raza Chișinăului este Gratis </h2>
                     </div>
                 </div>
             </Parallax>
