@@ -4,3 +4,29 @@
     margin-top: 66px;
     color: #E4E4E4;
 }
+
+
+.wDays{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 5px 5px;
+
+}
+
+.infoBlock {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+.footerBlocks {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footerBlocksDays {
+    text-align: center;
+}

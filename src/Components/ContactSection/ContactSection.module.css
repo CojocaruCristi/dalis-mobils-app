@@ -11,3 +11,14 @@
     text-transform: uppercase;
     color: #E4E4E4;
 }
+
+.formContainer {
+    width: 50%;
+    height: 90vh;
+    background-color: white;
+}
+
+.contact-form {
+    display: flex;
+
+}
