@@ -33,17 +33,14 @@ export const ContactSection = () => {
             >
                 <div style={{height: "110vh"}}>
                     <div className={styledClasses.formContainer}>
-                        <form className="contact-form" onSubmit={sendEmail}>
+                        <form className={styledClasses.contactForm} onSubmit={sendEmail}>
+                            <h1 style={{color: "#E4E4E4"}} >Get feedBack</h1>
                             <input type="hidden" name="contact_number" />
-                            <label>Name</label>
-                            <input type="text" name="user_name" />
-                            <label>Email</label>
-                            <input type="email" name="user_email" />
-                            <label>Number</label>
-                            <input type="text" name={"user_number"}/>
-                            <label>Message</label>
-                            <textarea name="message" />
-                            <input type="submit" value="Send" />
+                            <input  className={styledClasses.formInputs} type="text" name="user_name" placeholder={"Name"} />
+                            <input className={styledClasses.formInputs} type="email" name="user_email" placeholder={"Email"} />
+                            <input className={styledClasses.formInputs} type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name={"user_number"} placeholder={"Number"}/>
+                            <textarea className={styledClasses.formInputs} name="message" placeholder={"Message"} />
+                            <input className={styledClasses.inputButton} type="submit" value="Send" />
                         </form>
                     </div>
                 </div>

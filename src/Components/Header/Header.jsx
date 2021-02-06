@@ -8,7 +8,7 @@ import styledClasses from "./header.module.css"
 export const Header = () => {
     return (
         <Navbar  collapseOnSelect expand={"lg"} bg={"dark"} variant={"dark"} fixed={"top"} className={styledClasses.header}>
-            <Navbar.Brand style={{"cursor": "pointer"}} ><Link to={"top"} smooth={true} duration={1000}><Image src={logo} width={"40"} height={"40"} roundedCircle/> Dalis Bobila </Link><Badge
+            <Navbar.Brand style={{"cursor": "pointer"}} ><Link to={"top"} smooth={true} duration={1000}><Image src={logo} width={"40"} height={"40"} roundedCircle/> Dalis Mobila </Link><Badge
                 variant="secondary">SLR</Badge></Navbar.Brand>
             <Navbar.Toggle aria-controls={"responsive-navBar-nav"}/>
             <Navbar.Collapse id={"responsive-navBar-nav"}>

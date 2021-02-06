@@ -33,7 +33,7 @@ export const Footer = () => {
                         </div>
                         <div className={styledClasses.infoBlock}>
                             <AiOutlineMail/><span>EMail:</span><a
-                            href={"mailto:dalismobila@gmail.com"}>dalismobila@gmail.com</a>
+                            href={"mailto:dalismobila@gmail.com"}>сarucerulena@gmail.com</a>
                         </div>
                         <div className={styledClasses.infoBlock}>
                             <Button variant="secondary"><a href="https://www.facebook.com/dalisfurniture" target={"_blank"} style={{"text-decoration": "none"}} ><FiFacebook/></a></Button>
